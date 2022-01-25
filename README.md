@@ -1,6 +1,6 @@
 # Authenticated-RCE-CuppaCMS
 CuppaCMS is vulnerable to Authenticated Remote Code Execution. \
-An authenticated user can control both parameters (system and function) from "/api/index.php". \
+An authenticated user can control both parameters (action and function) from "/api/index.php". \
 The vulnerability can be exploited using POST method. \
 Except system and function parameter we can add any parameter because its checking only parameter value not parameter name.
 
